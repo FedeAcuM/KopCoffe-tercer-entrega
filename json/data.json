@@ -1,0 +1,40 @@
+{
+    "delicias": [
+      {
+        "id": 1,
+        "nombre": "delicia",
+        "precio": 1500,
+        "imagen": "./img/cafeconleche.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "delicia",
+        "precio": 2500,
+        "imagen": "./img/cafe-americano.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "delicia",
+        "precio": 2300,
+        "imagen": "./img/cafelatte.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "delicia",
+        "precio": 2750,
+        "imagen": "./img/cafemokiato.jfif"
+      },
+      {
+        "id": 5,
+        "nombre": "delicia",
+        "precio": 4700,
+        "imagen": "./img/service-1.jpg"
+      },
+      {
+        "id": 6,
+        "nombre": "delicia",
+        "precio": 5750,
+        "imagen": "./img/service-2.jpg"
+      }
+  ]
+}

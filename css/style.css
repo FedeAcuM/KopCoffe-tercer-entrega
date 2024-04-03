@@ -1,0 +1,253 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-image: url(/img/fondo1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.95;
+  }
+  
+.class-logo {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+.Logo {
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   width: 150px;
+   
+}
+  
+#cafes {
+    display: flex;
+    justify-content: flex-start; 
+    flex-wrap: wrap; 
+    background: #452a0faa;
+    background: -webkit-linear-gradient(to right, #452a0faa, #452a0faa);
+    background: linear-gradient(to right, #452a0faa, #452a0faa);
+}
+
+.contenedor-cafes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cafes-container {
+    width: 300px; 
+}
+
+.cafe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cafe img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    margin-top: 20px; 
+}
+
+.productos-container {
+    flex: 1; 
+    display: flex;
+    justify-content: space-around;  
+}
+
+.carrito {
+    width: 300px;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed; 
+    top: 50px;
+    right: 20px; 
+    z-index: 1000; 
+}
+
+#carrito {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+}
+
+#carrito h2 {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+#carrito .cafe {
+    width: calc(50% - 10px); 
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#carrito .cafe img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#carrito .cafe h3 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#carrito .cafe p {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#carrito .cafe .botones {
+    display: flex;
+    justify-content: space-around; 
+}
+
+#carrito .cafe .botones button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#carrito .cafe .botones button:hover {
+    background-color: #0056b3;
+}
+
+#resumen {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    
+}
+
+#resumen h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+#resumen span {
+    margin-bottom: 5px;
+}
+
+#resumen button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#resumen button:hover {
+    background-color: #0056b3;
+}
+
+#botones-final {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+#botones-final button {
+    margin: 0 10px; 
+}
+
+#total-compra {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 769px) {
+    .header {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+    }
+    #cafes {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-around; 
+        
+    }
+    
+    .cafes-container {
+        width: calc(33.33% - 20px); 
+        margin-bottom: 20px;
+        box-sizing: border-box; 
+        padding: 0 10px; 
+    }
+    
+    .cafe {
+        width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+    
+    .cafe img {
+        width: 100%; 
+        height: auto; 
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Logo {
+        width: 150px; 
+    }
+
+    #cafes {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .cafes-container {
+        width: 100%; 
+    }
+
+    #carrito .cafe {
+        width: 100%; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Logo {
+        width: 120px; 
+    }
+}
