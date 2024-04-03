@@ -2,37 +2,37 @@
     "delicias": [
       {
         "id": 1,
-        "nombre": "delicia",
+        "nombre": "Cafe con Leche",
         "precio": 1500,
         "imagen": "./img/cafeconleche.jpg"
       },
       {
         "id": 2,
-        "nombre": "delicia",
+        "nombre": "Americano",
         "precio": 2500,
         "imagen": "./img/cafe-americano.jpg"
       },
       {
         "id": 3,
-        "nombre": "delicia",
+        "nombre": "Latte",
         "precio": 2300,
         "imagen": "./img/cafelatte.jpg"
       },
       {
         "id": 4,
-        "nombre": "delicia",
+        "nombre": "Makiato",
         "precio": 2750,
         "imagen": "./img/cafemokiato.jfif"
       },
       {
         "id": 5,
-        "nombre": "delicia",
+        "nombre": "Moka",
         "precio": 4700,
         "imagen": "./img/service-1.jpg"
       },
       {
         "id": 6,
-        "nombre": "delicia",
+        "nombre": "Lungo",
         "precio": 5750,
         "imagen": "./img/service-2.jpg"
       }
